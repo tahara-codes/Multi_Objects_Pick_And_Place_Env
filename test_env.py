@@ -7,7 +7,7 @@ import pickle
 import argparse
 
 import pygame
-from control_joy import JoyController
+from utils.control_joy import JoyController
 
 import cv2
 import gym
@@ -87,4 +87,3 @@ class CollectData:
 if __name__ == "__main__":
     collect_data = CollectData()
     collect_data.main()
-
